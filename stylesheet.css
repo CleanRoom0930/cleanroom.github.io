@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+p {
+  line-height: 2;
+  font-size: 18px;
+  color: #444;
+}
+
+a {
+  color: green;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+figcaption {
+  margin-top: 8px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2)
+}
+
+.profile {
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+.profile ul {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  border-left: 5px solid #90caf9;
+  list-style-position: inside;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.item {
+  text-align: center;
+}
+
+.nikki .container{
+    gap:30px;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.nikki .card {
+  margin-bottom: 40px;
+  border-left: 5px solid #90caf9;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+
